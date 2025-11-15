@@ -1,0 +1,21 @@
+# === FastAPI Backend (production/runtime) ===
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# PDF / DOCX extraction
+pdfplumber
+python-docx
+
+# HF model inference (CPU-friendly)
+transformers
+torch
+sentencepiece
+
+# Utilities
+requests
+
+# Testing
+pytest
+
